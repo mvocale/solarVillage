@@ -121,7 +121,7 @@ To create the container we use the REST API by sending a PUT HTTP request to the
 
   ```
   $ curl -X PUT -H "Accept:application/json" -H "Content-Type:application/json" --user jboss:bpms \
-  -d '{"release-id":{"group-id":"org.solarVillage","artifact-id":"OrderPermit","version":"8.3"}}' \
+  -d '{"release-id":{"group-id":"org.solarVillage","artifact-id":"OrderPermit","version":"1.0"}}' \
   "http://localhost:8080/kie-server/services/rest/server/containers/order_permit"
   ```
 
@@ -130,7 +130,7 @@ To create the container we use the REST API by sending a PUT HTTP request to the
   ```
   {
     "type" : "SUCCESS",
-    "msg" : "Container order_permit successfully deployed with module org.solarVillage:OrderPermit:8.3.",
+    "msg" : "Container order_permit successfully deployed with module org.solarVillage:OrderPermit:1.0",
     "result" : {
       "kie-container" : {
         "status" : "STARTED",
