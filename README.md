@@ -21,14 +21,14 @@ It is required to clone the remote maven repository in order to build and deploy
 1. Create a folder to organize the project's git repository.
 
   ```
-  $ mkdir ~/bpms-lab/sonarVillage
-  $ cd ~/bpms-lab/sonarVillage
+  $ mkdir ~/bpms-lab/solarVillage
+  $ cd ~/bpms-lab/solarVillage
   ```
 
 2. Execute the git clone command:  
 
   ```
-  $ git clone https://github.com/mvocale/sonarVillage.git
+  $ git clone https://github.com/mvocale/solarVillage.git
   ```
 
 ### 3.1.2. Build the Maven components
@@ -38,7 +38,7 @@ The war and jar components that will serve the government permit SOAP web servic
 Using the git repository that we cloned in the previous step, execute the maven install command:
 
 ```
-$ cd ~/bpms-lab/sonarVillage/governmentPermitServices
+$ cd ~/bpms-lab/solarVillage/governmentPermitServices
 $ mvn install -P war
 ```
 
@@ -51,7 +51,7 @@ The war and jar components that provide the SOAP web service finctionality are `
 Copy the target resources from the Maven projects to JBoss Server:
 
 ```
-$ cp ~/bpms-lab/sonarVillage/governmentPermitServices/permitServiceTier/target/governmentPermitServices.war \
+$ cp ~/bpms-lab/solarVillage/governmentPermitServices/permitServiceTier/target/governmentPermitServices.war \
  ~/lab/bpms/standalone/deployments
 ```
 
