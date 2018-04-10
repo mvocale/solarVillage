@@ -1,0 +1,33 @@
+
+<form id="1755589580">
+<property name="name" value="HoaMeetingResults-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="associationName" type="InputText" id="1615740730">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;associationName (associationName)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="associationName"/>
+<property name="outputBinding" value="associationName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="installationApproved" type="CheckBox" id="2127998760">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;installationApproved (installationApproved)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="installationApproved"/>
+<property name="outputBinding" value="installationApproved"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="2" name="meetingDetails" type="InputText" id="1793367906">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;meetingDetails (meetingDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="meetingDetails"/>
+<property name="outputBinding" value="meetingDetails"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="associationName" name="#E9E371" type="basicType" outId="associationName" value="java.lang.String" id="associationName"/>
+<dataHolder inputId="installationApproved" name="#E9E371" type="basicType" outId="installationApproved" value="java.lang.Boolean" id="installationApproved"/>
+<dataHolder inputId="meetingDetails" name="#E9E371" type="basicType" outId="meetingDetails" value="java.lang.String" id="meetingDetails"/>
+</form>
