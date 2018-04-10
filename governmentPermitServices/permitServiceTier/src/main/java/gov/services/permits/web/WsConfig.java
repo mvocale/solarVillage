@@ -33,7 +33,8 @@ import gov.services.permits.repo.ElectricalPermitRepository;
 /**
  * Registers the SOAP Web service handlers.
  * 
- * @author dtorresf@redhat.com
+ * @author Mauro Vocale
+ * @version 1.0.0 10/04/2018
  *
  */
 @EnableWs

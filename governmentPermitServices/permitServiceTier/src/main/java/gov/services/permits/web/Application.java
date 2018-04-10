@@ -25,7 +25,8 @@ import org.springframework.boot.context.web.SpringBootServletInitializer;
  * 
  * Entry point class for spring boot application.
  * 
- * @author dtorresf@redhat.com
+ * @author Mauro Vocale
+ * @version 1.0.0 10/04/2018
  *
  */
 @SpringBootApplication

@@ -33,7 +33,8 @@ import gov.services.permits.structural.StructuralPermitStatusRequest;
 import gov.services.permits.structural.StructuralPermitStatusResponse;
 
 /**
- * @author dtorresf@redhat.com
+ * @author Mauro Vocale
+ * @version 1.0.0 10/04/2018
  *
  */
 @Endpoint

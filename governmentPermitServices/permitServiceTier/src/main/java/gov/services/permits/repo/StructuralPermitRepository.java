@@ -30,7 +30,8 @@ import gov.services.permits.structural.RaiseStructuralPermitRequest;
 
 /**
  * 
- * @author dtorresf@redhat.com
+ * @author Mauro Vocale
+ * @version 1.0.0 10/04/2018
  *
  */
 @Repository
